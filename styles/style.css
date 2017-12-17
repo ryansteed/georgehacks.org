@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #50555a;
   padding: 100px 20px;
 }
@@ -152,4 +152,12 @@ footer {
   transform: scale(1.2) translateY(-10px);
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
   border-bottom: 20px solid rgba(0, 0, 0, 0.15);
+}
+
+p {
+  padding-bottom: 60px;
+}
+
+.content__wrapper h2{
+  padding-top: 40px;
 }
