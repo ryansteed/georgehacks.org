@@ -13,7 +13,7 @@ body {
 nav {
   z-index: 9;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  color: white;
+  color: #EFEFEF;
   position: fixed;
   top: 0;
   left: 0;
@@ -36,7 +36,7 @@ footer {
   padding: 40px 0;
   text-align: center;
   opacity: .33;
-  color: white;
+  color: #EFEFEF;
 }
 
 .wrapper {
@@ -61,7 +61,7 @@ footer {
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  color: white;
+  color: #EFEFEF;
 }
 .tabs > li:before {
   z-index: -1;
@@ -86,13 +86,13 @@ footer {
 }
 .tabs > li.active:before {
   transition-duration: .5s;
-  background-color: white;
+  background-color: #EFEFEF;
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
 
 .tab__content {
-  background-color: white;
+  background-color: #EFEFEF;
   position: relative;
   width: 100%;
   border-radius: 5px;
@@ -110,7 +110,7 @@ footer {
   border-radius: 5px;
   width: 100%;
   padding: 45px 40px 40px 40px;
-  background-color: white;
+  background-color: #EFEFEF;
 }
 
 .content__wrapper h2 {
@@ -163,7 +163,7 @@ p {
 }
 
 .content-block{
-  color: #ffffff;
+  color: #EFEFEF;
   min-width: 600px;
   max-width: 900px;
   margin: 0 auto;
@@ -190,4 +190,8 @@ p {
 
 .card{
   max-width: 80%;
+}
+
+#heart{
+  
 }
