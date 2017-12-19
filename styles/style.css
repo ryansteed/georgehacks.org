@@ -7,7 +7,7 @@
 body {
   font-family: 'Nunito Sans', sans-serif;
   color: #50555a;
-  padding: 100px 20px;
+  padding:80px 20px;
 }
 
 nav {
@@ -162,9 +162,32 @@ p {
   padding-top: 40px;
 }
 
-.white-block{
+.content-block{
   color: #ffffff;
   min-width: 600px;
   max-width: 900px;
   margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header-image{
+  max-height: 400px;
+  width: 100%;
+  border-radius:4px;
+}
+
+.card{
+  max-width: 80%;
 }
