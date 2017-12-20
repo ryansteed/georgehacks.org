@@ -168,7 +168,7 @@ p {
   max-width: 900px;
   margin: 0 auto;
   padding-bottom: 5px;
-   position: fixed; /* fixed or static */
+   position: absolute;; /* fixed or static */
    top: 50px;
    left: 300px;
    background: transparent;
