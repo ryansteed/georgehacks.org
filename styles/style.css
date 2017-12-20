@@ -171,6 +171,7 @@ p {
    position: fixed; /* fixed or static */
    top: 50px;
    left: 300px;
+   background: transparent;
 }
 
 .column {
