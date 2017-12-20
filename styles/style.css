@@ -168,7 +168,9 @@ p {
   max-width: 900px;
   margin: 0 auto;
   padding-bottom: 5px;
-   position: static; /* fixed or static */
+   position: fixed; /* fixed or static */
+   top: 50px;
+   left: 300px;
 }
 
 .column {
