@@ -34,7 +34,11 @@ function initialize() {
   scene.add(camera);
 
   controls = new THREE.OrbitControls(camera);
-  controls.update();
+
+  controls.enabled = false;
+
+  //controls.update();
+
 
   var heartLoader = new THREE.OBJLoader();
   heartLoader.load(heartCode, function(obj) {
@@ -57,7 +61,7 @@ function rotate(obj, axis, radians) {
 
 function animate() {
   requestAnimationFrame(animate);
-  //controls.update();
+  controls.update();
   renderer.render(scene, camera);
   rotate(heart, yAxis, Math.PI / 180);
 }
