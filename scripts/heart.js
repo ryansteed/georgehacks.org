@@ -57,7 +57,7 @@ function rotate(obj, axis, radians) {
 
 function animate() {
   requestAnimationFrame(animate);
-  controls.update();
+  //controls.update();
   renderer.render(scene, camera);
   rotate(heart, yAxis, Math.PI / 180);
 }
