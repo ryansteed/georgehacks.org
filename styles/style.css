@@ -166,8 +166,9 @@ p {
   color: #EFEFEF;
   min-width: 600px;
   max-width: 900px;
-  margin: 0 auto; 
-  padding-bottom: 50px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+   position: static; /* fixed or static */
 }
 
 .column {
