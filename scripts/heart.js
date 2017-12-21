@@ -51,7 +51,7 @@ function initialize() {
 
     scene.add(obj);
   });
-
+  heart.position(2,0,0)
 }
 
 function rotate(obj, axis, radians) {
