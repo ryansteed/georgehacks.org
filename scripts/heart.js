@@ -12,7 +12,7 @@ function initialize() {
   scene = new THREE.Scene();
 
   renderer = new THREE.WebGLRenderer({ alpha: true });
-  renderer.setSize(window.innerWidth/2, window.innerHeight);
+  renderer.setSize(window.innerWidths, window.innerHeight);
   renderer.setClearColor(0xffffff, 0);
   document.getElementById("content").appendChild(renderer.domElement);
 
