@@ -48,9 +48,9 @@ function initialize() {
       }
     });
     heart = obj;
-    obj.position(2, 0, 0);
     scene.add(obj);
   });
+
 }
 
 function rotate(obj, axis, radians) {
