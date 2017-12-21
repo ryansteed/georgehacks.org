@@ -12,7 +12,7 @@ function initialize() {
   scene = new THREE.Scene();
 
   renderer = new THREE.WebGLRenderer({ alpha: true });
-  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.setSize(window.innerWidth/2, window.innerHeight);
   renderer.setClearColor(0xffffff, 0);
   document.getElementById("content").appendChild(renderer.domElement);
 
@@ -48,6 +48,7 @@ function initialize() {
       }
     });
     heart = obj;
+    heart.position(30 , 0 , 0);
     scene.add(obj);
   });
 }
