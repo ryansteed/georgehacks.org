@@ -202,7 +202,7 @@ p {
   border-radius: 5px;
   color: #000000;
   font-size: 20px;
-  background: #ffffff;
+  background: #EFEFEF;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -210,5 +210,14 @@ p {
 .register-button:hover {
   background: #bdbdbd;
   text-decoration: none;
-  color: #ffffff;
+  color: #EFEFEF;
+}
+
+.return-info{
+  color: #EFEFEF;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+a{
+  text-decoration:  none;
 }
