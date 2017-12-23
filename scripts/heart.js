@@ -48,7 +48,7 @@ function initialize() {
       }
     });
     heart = obj;
-    heart.position.set(-50,0,0);
+    heart.position.set(200,0,0);
     scene.add(heart);
   });
 }
