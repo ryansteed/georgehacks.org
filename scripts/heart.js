@@ -48,8 +48,8 @@ function initialize() {
       }
     });
     heart = obj;
-
-    scene.add(obj);
+    heart.position.set(0,0,2);
+    scene.add(heart);
   });
 }
 
