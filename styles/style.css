@@ -220,5 +220,6 @@ a{
 }
 
 .logo-head{
+  position: absolute;
   max-height: 250px;
 }

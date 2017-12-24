@@ -1,17 +1,17 @@
 #content {
   color: #FFFFFF;
-  height: 200px;
+  max-height: 400px;
   width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background-image: radial-gradient(circle at center, #333 10%, #000 100%);
 }
 
 canvas {
   animation: heartBeat 1s alternate infinite;
   animation-timing-function: ease-in;
+  max-height: 400px;
 }
 
 @keyframes heartBeat {
