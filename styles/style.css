@@ -216,8 +216,9 @@ a{
   text-decoration:  none;
 }
 
-.logo-header{
+.logo-head{
   align: center;
+  margin-bottom: 40px;
 }
 
 .logo{
