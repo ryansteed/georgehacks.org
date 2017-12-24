@@ -183,12 +183,6 @@ p {
     clear: both;
 }
 
-.header-image{
-  max-height: 400px;
-  width: 100%;
-  border-radius:4px;
-}
-
 .card{
   max-width: 80%;
 }
@@ -229,6 +223,8 @@ a{
 .logo{
   max-height: 250px;
   align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 /* heart pulse */
@@ -236,7 +232,7 @@ a{
   height: 100px;
   width: 200px;
   overflow: hidden;
-  position: absolute;
+  position: static;
   top: 0;
   bottom: 0;
   left: 0;
