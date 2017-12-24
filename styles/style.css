@@ -7,13 +7,13 @@
 body {
   font-family: 'Nunito Sans', sans-serif;
   color: #50555a;
-  padding: 100px 20px;
+  padding:80px 20px;
 }
 
 nav {
   z-index: 9;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  color: white;
+  color: #EFEFEF;
   position: fixed;
   top: 0;
   left: 0;
@@ -33,10 +33,10 @@ nav {
 }
 
 footer {
-  padding: 40px 0;
+  padding-top: 40px;
   text-align: center;
   opacity: .33;
-  color: white;
+  color: #EFEFEF;
 }
 
 .wrapper {
@@ -61,7 +61,7 @@ footer {
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  color: white;
+  color: #EFEFEF;
 }
 .tabs > li:before {
   z-index: -1;
@@ -86,13 +86,13 @@ footer {
 }
 .tabs > li.active:before {
   transition-duration: .5s;
-  background-color: white;
+  background-color: #EFEFEF;
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
 
 .tab__content {
-  background-color: white;
+  background-color: #EFEFEF;
   position: relative;
   width: 100%;
   border-radius: 5px;
@@ -110,7 +110,7 @@ footer {
   border-radius: 5px;
   width: 100%;
   padding: 45px 40px 40px 40px;
-  background-color: white;
+  background-color: #EFEFEF;
 }
 
 .content__wrapper h2 {
@@ -162,9 +162,156 @@ p {
   padding-top: 40px;
 }
 
-.white-block{
-  color: #ffffff;
+.content-block{
+  color: #EFEFEF;
   min-width: 600px;
   max-width: 900px;
   margin: 0 auto;
+  padding-bottom: 30px;
+   background: transparent;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card{
+  max-width: 80%;
+}
+
+.button{
+  margin-bottom: 80px;
+}
+.register-button{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 20px;
+  background: #EFEFEF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.register-button:hover {
+  background: #bdbdbd;
+  text-decoration: none;
+  color: #EFEFEF;
+}
+
+.return-info{
+  color: #EFEFEF;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+a{
+  text-decoration:  none;
+}
+
+.logo-header{
+  align: center;
+}
+
+.logo{
+  max-height: 250px;
+  align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+/* heart pulse */
+.pulse {
+  height: 100px;
+  width: 200px;
+  overflow: hidden;
+  position: static;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.pulse:after {
+  content: '';
+  display: block;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200px 100px"><polyline fill="none" stroke-width="3px" stroke="white" points="2.4,58.7 70.8,58.7 76.1,46.2 81.1,58.7 89.9,58.7 93.8,66.5 102.8,22.7 110.6,78.7 115.3,58.7 126.4,58.7 134.4,54.7 142.4,58.7 197.8,58.7 "/></svg>') 0 0 no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-animation: 2s pulse infinite linear;
+          animation: 2s pulse infinite linear;
+}
+.pulse:before {
+  content: '';
+  background: transparent;
+  position: absolute;
+  z-index: -1;
+  left: 2px;
+  right: 2px;
+  bottom: 0;
+  top: 16px;
+  margin: auto;
+  height: 3px;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    clip: rect(0, 0, 100px, 0);
+  }
+  10% {
+    clip: rect(0, 66.6666666667px, 100px, 0);
+  }
+  38% {
+    clip: rect(0, 133.3333333333px, 100px, 0);
+  }
+  48% {
+    clip: rect(0, 200px, 100px, 0);
+  }
+  52% {
+    clip: rect(0, 200px, 100px, 0);
+  }
+  62% {
+    clip: rect(0, 200px, 100px, 66.6666666667px);
+  }
+  90% {
+    clip: rect(0, 200px, 100px, 133.3333333333px);
+  }
+  100% {
+    clip: rect(0, 200px, 100px, 200px);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    clip: rect(0, 0, 100px, 0);
+  }
+  10% {
+    clip: rect(0, 66.6666666667px, 100px, 0);
+  }
+  38% {
+    clip: rect(0, 133.3333333333px, 100px, 0);
+  }
+  48% {
+    clip: rect(0, 200px, 100px, 0);
+  }
+  52% {
+    clip: rect(0, 200px, 100px, 0);
+  }
+  62% {
+    clip: rect(0, 200px, 100px, 66.6666666667px);
+  }
+  90% {
+    clip: rect(0, 200px, 100px, 133.3333333333px);
+  }
+  100% {
+    clip: rect(0, 200px, 100px, 200px);
+  }
 }
