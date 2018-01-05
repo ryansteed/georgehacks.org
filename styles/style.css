@@ -321,6 +321,8 @@ a{
 .fukol{
   margin-top: 50px;
   margin-bottom: 75px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .fukol-grid {
@@ -348,3 +350,5 @@ a{
   vertical-align: center;
   align: center;
 }
+
+/*Schedule*/
