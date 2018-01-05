@@ -307,7 +307,7 @@ a{
     clip: rect(0, 200px, 100px, 0);
   }
   62% {
-    clip: rect(0, 200px, 100px, 66.6666666667px);
+    clip: rect(0, 200px, 100px, 66.6666666667);
   }
   90% {
     clip: rect(0, 200px, 100px, 133.3333333333px);
@@ -315,4 +315,36 @@ a{
   100% {
     clip: rect(0, 200px, 100px, 200px);
   }
+}
+
+/* grid */
+.fukol{
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
+.fukol-grid {
+  display: flex; /* 1 */
+  flex-wrap: wrap; /* 2 */
+  margin: -0.5em; /* 5 (edit me!) */
+}
+
+.fukol-grid > * {
+  flex: 1 0 5em; /* 3 (edit me!) */
+  margin: 0.5em; /* 4 (edit me!) */
+  style: none;
+}
+
+.sponsor{
+  background-color: none;
+  min-width: 150px;
+  max-height: 120px;
+  align: center;
+}
+
+.sponsor img{
+  max-height: 120px;
+  max-width: 100%;
+  vertical-align: center;
+  align: center;
 }
