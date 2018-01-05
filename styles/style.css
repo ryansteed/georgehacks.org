@@ -373,6 +373,13 @@ a{
   align: center;
 }
 
+.events> tbody > tr >td:first-child {
+  width: 30%;
+}
+.events> tbody > tr >td:last-child {
+  width: 30%;
+}
+
 td{
   text-align: center;
 }
