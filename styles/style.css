@@ -352,3 +352,13 @@ a{
 }
 
 /*Schedule*/
+.schedule{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 25px;
+}
+
+.events{
+  width: 100%;
+  text-align: center;
+}
