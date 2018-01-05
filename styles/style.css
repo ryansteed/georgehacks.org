@@ -356,6 +356,10 @@ a{
   align: center;
 }
 
+.sponsors h1{
+  margin-bottom: 25px;
+}
+
 /*Schedule*/
 .schedule{
   margin-left: 10%;
