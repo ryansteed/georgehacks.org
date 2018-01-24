@@ -395,3 +395,101 @@ a{
 td{
   text-align: center;
 }
+
+/*social icons*/
+/* common styles !!! YOU DON'T NEED THEM */
+.social {
+  margin: 60px auto 0px auto;
+  text-align: center;
+}
+
+.effect {
+  width: 100%;
+  padding: 50px 0px 70px 0px;
+  background-color: #212121;
+}
+.effect:nth-child(2) {
+  margin-top: 50px;
+}
+.effect:nth-child(2n+1) {
+  background-color: #46a1de;
+}
+.effect:nth-child(2n+1) h2 {
+  color: #212121;
+}
+.effect:nth-child(2n) a {
+  color: #fff;
+  border-color: #fff;
+}
+.effect .buttons {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* styles for a common effect !!!YOU NEED THEM */
+.effect {
+  /*display: flex; !!!uncomment this line !!!*/
+}
+.effect a {
+  text-decoration: none !important;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  font-size: 25px;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.effect a i {
+  position: relative;
+  z-index: 3;
+}
+.effect a:last-child {
+  margin-right: 0px;
+}
+.effect a:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.effect a i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+/* thurio effect */
+.effect.thurio a {
+  -webkit-transition: border-radius 0.2s linear 0s;
+  transition: border-radius 0.2s linear 0s;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.effect.thurio a i {
+  -webkit-transition: -webkit-transform 0.01s linear 0s;
+  transition: -webkit-transform 0.01s linear 0s;
+  transition: transform 0.01s linear 0s;
+  transition: transform 0.01s linear 0s, -webkit-transform 0.01s linear 0s;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.effect.thurio a:hover {
+  border-radius: 0px;
+}
