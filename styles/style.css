@@ -207,11 +207,11 @@ p {
   color: #EFEFEF;
 }
 
-.button a{
+.register-button a{
   color: #000000;
 }
 
-.button:hover a{
+.register-button:hover a{
   color: #ffffff;
 }
 
