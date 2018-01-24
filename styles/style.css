@@ -207,6 +207,14 @@ p {
   color: #EFEFEF;
 }
 
+.button a{
+  color: #000000;
+}
+
+.button:hover a{
+  color: #ffffff;
+}
+
 .return-info{
   color: #EFEFEF;
   font-family: 'Nunito Sans', sans-serif;
