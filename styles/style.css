@@ -199,6 +199,18 @@ p {
   background: #EFEFEF;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  max-width: 200px;
+}
+.sponsor-button{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 20px;
+  background: #EFEFEF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  max-width: 300px;
 }
 
 .register-button:hover {
@@ -212,6 +224,20 @@ p {
 }
 
 .register-button:hover a{
+  color: #ffffff;
+}
+
+.sponsor-button:hover {
+  background: #bdbdbd;
+  text-decoration: none;
+  color: #EFEFEF;
+}
+
+.sponsor-button a{
+  color: #000000;
+}
+
+.sponsor-button:hover a{
   color: #ffffff;
 }
 
