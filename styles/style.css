@@ -199,12 +199,46 @@ p {
   background: #EFEFEF;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  max-width: 200px;
+}
+.sponsor-button{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 20px;
+  background: #EFEFEF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  max-width: 300px;
 }
 
 .register-button:hover {
   background: #bdbdbd;
   text-decoration: none;
   color: #EFEFEF;
+}
+
+.register-button a{
+  color: #000000;
+}
+
+.register-button:hover a{
+  color: #ffffff;
+}
+
+.sponsor-button:hover {
+  background: #bdbdbd;
+  text-decoration: none;
+  color: #EFEFEF;
+}
+
+.sponsor-button a{
+  color: #000000;
+}
+
+.sponsor-button:hover a{
+  color: #ffffff;
 }
 
 .return-info{
@@ -216,8 +250,9 @@ a{
   text-decoration:  none;
 }
 
-.logo-header{
+.logo-head{
   align: center;
+  margin-bottom: 40px;
 }
 
 .logo{
@@ -306,7 +341,7 @@ a{
     clip: rect(0, 200px, 100px, 0);
   }
   62% {
-    clip: rect(0, 200px, 100px, 66.6666666667px);
+    clip: rect(0, 200px, 100px, 66.6666666667);
   }
   90% {
     clip: rect(0, 200px, 100px, 133.3333333333px);
@@ -314,4 +349,190 @@ a{
   100% {
     clip: rect(0, 200px, 100px, 200px);
   }
+}
+
+/* grid */
+.fukol{
+  margin-top: 50px;
+  margin-bottom: 75px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.fukol-grid {
+  display: flex; /* 1 */
+  flex-wrap: wrap; /* 2 */
+  margin: -0.5em; /* 5 (edit me!) */
+}
+
+.fukol-grid > * {
+  flex: 1 0 5em; /* 3 (edit me!) */
+  margin: 0.5em; /* 4 (edit me!) */
+  style: none;
+}
+
+.sponsors{
+  text-align: center;
+  color: #EFEFEF;
+}
+
+.sponsor{
+  background-color: none;
+  min-width: 150px;
+  max-height: 120px;
+  align: center;
+}
+
+.sponsor img{
+  max-height: 120px;
+  max-width: 100%;
+  vertical-align: center;
+  align: center;
+}
+
+.sponsors h1{
+  margin-bottom: 25px;
+}
+
+.become-sponsor{
+  margin-top: 60px;
+}
+
+/*Schedule*/
+.schedule{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 25px;
+}
+
+.events{
+  width: 100%;
+  text-align: center;
+  align: center;
+}
+
+.events> tbody > tr >td:first-child {
+  width: 30%;
+}
+.events> tbody > tr >td:last-child {
+  width: 30%;
+}
+
+td{
+  text-align: center;
+}
+
+/*social icons*/
+/* common styles !!! YOU DON'T NEED THEM */
+.social {
+  margin: 60px auto 0px auto;
+  text-align: center;
+}
+
+.effect {
+  width: 100%;
+  padding: 50px 0px 70px 0px;
+  background-color: #212121;
+}
+.effect:nth-child(2) {
+  margin-top: 50px;
+}
+.effect:nth-child(2n+1) {
+  background-color: #46a1de;
+}
+.effect:nth-child(2n+1) h2 {
+  color: #212121;
+}
+.effect:nth-child(2n) a {
+  color: #fff;
+  border-color: #fff;
+}
+.effect .buttons {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* styles for a common effect !!!YOU NEED THEM */
+.effect {
+  /*display: flex; !!!uncomment this line !!!*/
+}
+.effect a {
+  text-decoration: none !important;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  font-size: 25px;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.effect a i {
+  position: relative;
+  z-index: 3;
+}
+.effect a:last-child {
+  margin-right: 0px;
+}
+.effect a:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.effect a i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+/* thurio effect */
+.effect.thurio a {
+  -webkit-transition: border-radius 0.2s linear 0s;
+  transition: border-radius 0.2s linear 0s;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.effect.thurio a i {
+  -webkit-transition: -webkit-transform 0.01s linear 0s;
+  transition: -webkit-transform 0.01s linear 0s;
+  transition: transform 0.01s linear 0s;
+  transition: transform 0.01s linear 0s, -webkit-transform 0.01s linear 0s;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.effect.thurio a:hover {
+  border-radius: 0px;
+}
+
+/* sponsor logos */
+.sponsor>a{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  vertical-align: middle;
+  width: 100%;
+}
+.sponsor>a>img{
+  display: inline;
+}
+.otherSponsor{
+  min-width: 100px;
+  max-height: 100px;
 }
