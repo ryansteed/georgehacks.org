@@ -519,3 +519,20 @@ td{
 .effect.thurio a:hover {
   border-radius: 0px;
 }
+
+/* sponsor logos */
+.sponsor>a{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  vertical-align: middle;
+  width: 100%;
+}
+.sponsor>a>img{
+  display: inline;
+}
+.otherSponsor{
+  min-width: 100px;
+  max-height: 100px;
+}
