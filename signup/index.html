@@ -32,22 +32,68 @@
         <form action='https://www.getform.org/u/ba7eaf3f-e4cc-4bfa-99b9-dffb908a305a' enctype="multipart/form-data" method="POST">
 
           <label for="fname">First Name</label>
+          <br>
           <input type="text" id="fname" name="firstname" placeholder="Your First Name" required>
 
+          <br>
           <label for="Lname">Last Name</label>
+          <br>
           <input type="text" id="Lname" name="lastname" placeholder="Your Last Name" required>
 
+          <br>
           <label for="email">Email</label>
+          <br>
           <input type="email" id="email" name="e-mail" placeholder="Emaily@McEmail.face" required>
 
+          <br>
           <label for="school">School</label>
+          <br>
           <input type="text" id="school" name="School" placeholder="Your School" required>
 
+          <br>
+          <label for="major">Major</label>
+          <br>
+          <input type="text" id="major" name="major" placeholder="BME" required>
+
+          <br>
+          <label for="year">Year</label>
+          <br>
+          <input type="text" id="year" name="year" placeholder="Junior" required>
+
+          <br>
           <label for="identify">George Hacks is an inclusive event. Please share with us how you identify.</label>
+          <br>
           <input type="text" id="identify" name="identification" placeholder="eg: Introverted, male student, transgender, Latina, etc." required>
 
-          <label for="school"> <strong>Please tell us your core strengths and what you bring to a team.</strong> </label>
-          <textarea name="comment" form="signupf"></textarea>
+          <br>
+          <label for="track">Which track are you most interested in?</label>
+          <br>
+          <select name="track" id="track" name="track">
+              <option value="devices">Assistive Devices</option>
+              <option value="social">Social Innovation</option>
+              <option value="medical">Affordable Medical Solutions</option>
+          </select>
+
+          <br>
+          <label for="tshirt">T shirt size</label>
+          <br>
+          <input type="text" id="tshirt" name="tshirt" placeholder="Womens small, medium, XL" required>
+
+          <br>
+          <label for="phone">Cell phone (This is just for emergencies)</label>
+          <br>
+          <input type="tel" id="phone" name="phone" required>
+
+          <br>
+          <label for="allergy">Do you have any allergies we should know about?</label>
+          <br>
+          <input type="text" id="allergy" name="allergy" placeholder="" >
+
+          <br>
+          <label for="teamask"> <strong>Please tell us your core strengths and what you bring to a team.</strong> </label>
+          <br>
+          <textarea name="comment" id="teamask" form="signupf"></textarea>
+
           <br>
           <br>
           <label for="">Please upload a résumé to be included in our book.</label>
