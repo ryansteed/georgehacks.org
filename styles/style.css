@@ -191,8 +191,8 @@ p {
   margin-bottom: 80px;
 }
 .register-button{
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
+  /*-webkit-border-radius: 28;
+  -moz-border-radius: 28; */
   border-radius: 5px;
   color: #000000;
   font-size: 20px;
@@ -202,8 +202,8 @@ p {
   max-width: 200px;
 }
 .sponsor-button{
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
+/*  -webkit-border-radius: 28;
+  -moz-border-radius: 28;*/
   border-radius: 5px;
   color: #000000;
   font-size: 20px;
