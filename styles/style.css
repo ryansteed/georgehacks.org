@@ -490,8 +490,8 @@ td{
 
 /* grid */
 .fukol{
-  margin-top: 50px;
-  margin-bottom: 75px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -500,7 +500,7 @@ td{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 5px;
     width: 80%;
 }
 
@@ -519,20 +519,20 @@ td{
   justify-content: center;
   height: 100%;
   vertical-align: middle;
-  max-width: 140px;
+  max-width: 220px;
 }
 .otherSponsor>a>img{
   display: inline;
 }
 .otherSponsor{
-  min-width: 120px;
+  min-width: 180px;
   max-height: 220px;
 
   background-color: none;
   background-repeat: no-repeat;
-  background-size: 118px;
+  background-size: 180px;
   background-position: center;
-  height: 120px;
+  height: 190px;
 }
 
 /*List of sponsor divs*/
@@ -545,7 +545,7 @@ td{
 }
 
 .soylent{
-  background-image: url("../assets/soylent.png");
+  background-image: url("../assets/soylent.jpg");
 }
 
 .seas{
@@ -558,4 +558,12 @@ td{
 
 .innovation{
   background-image: url("../assets/innovation_office.png");
+}
+
+.ncr{
+  background-image: url("../assets/ncrlogo.jpg");
+}
+
+.autism{
+  background-image: url("../assets/autismlogo.png");
 }
