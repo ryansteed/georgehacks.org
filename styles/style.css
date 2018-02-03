@@ -351,51 +351,19 @@ a{
   }
 }
 
-/* grid */
-.fukol{
-  margin-top: 50px;
-  margin-bottom: 75px;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-.fukol-grid {
-  display: flex; /* 1 */
-  flex-wrap: wrap; /* 2 */
-  margin: -0.5em; /* 5 (edit me!) */
-}
-
-.fukol-grid > * {
-  flex: 1 0 5em; /* 3 (edit me!) */
-  margin: 0.5em; /* 4 (edit me!) */
-  style: none;
-}
 
 .sponsors{
   text-align: center;
   color: #EFEFEF;
 }
 
-.sponsor{
-  background-color: none;
-  min-width: 150px;
-  max-height: 120px;
-  align: center;
-}
-
-.sponsor img{
-  max-height: 120px;
-  max-width: 100%;
-  vertical-align: center;
-  align: center;
-}
 
 .sponsors h1{
   margin-bottom: 25px;
 }
 
 .become-sponsor{
-  margin-top: 60px;
+  margin-top: 75px;
 }
 
 /*Schedule*/
@@ -520,19 +488,74 @@ td{
   border-radius: 0px;
 }
 
+/* grid */
+.fukol{
+  margin-top: 50px;
+  margin-bottom: 75px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.fukol-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 80%;
+}
+
+.fukol-grid > * {
+  flex: 1 0 6em; /* 3 (edit me!) */
+  margin: 1em; /* 4 (edit me!) */
+  style: none;
+}
+
+
+
 /* sponsor logos */
-.sponsor>a{
+.otherSponsor>a{
   display:flex;
   align-items: center;
   justify-content: center;
   height: 100%;
   vertical-align: middle;
-  width: 100%;
+  max-width: 140px;
 }
-.sponsor>a>img{
+.otherSponsor>a>img{
   display: inline;
 }
 .otherSponsor{
-  min-width: 100px;
-  max-height: 100px;
+  min-width: 120px;
+  max-height: 220px;
+
+  background-color: none;
+  background-repeat: no-repeat;
+  background-size: 118px;
+  background-position: center;
+  height: 120px;
+}
+
+/*List of sponsor divs*/
+.bmes{
+    background-image: url("../assets/GWbmes.png");
+}
+
+.fws{
+  background-image: url("../assets/4ws.png");
+}
+
+.soylent{
+  background-image: url("../assets/soylent.png");
+}
+
+.seas{
+  background-image: url("../assets/SEAS.png");
+}
+
+.bme-dept{
+
+}
+
+.innovation{
+  background-image: url("../assets/innovation_office.png");
 }
