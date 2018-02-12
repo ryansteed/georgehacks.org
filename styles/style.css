@@ -567,3 +567,21 @@ td{
 .autism{
   background-image: url("../assets/autismlogo.png");
 }
+
+/*info session info*/
+
+.event{
+  background-color: #0AF6C6;
+  color: #000000;
+
+    display: block;
+  min-width: 40px;
+  min-height: 45%;
+
+  position: fixed;
+  z-index:10000
+}
+
+.event-center{
+  padding: 10px;
+}
