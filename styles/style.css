@@ -568,6 +568,18 @@ td{
   background-image: url("../assets/autismlogo.png");
 }
 
+.sa{
+  background-image: url("../assets/sa.png");
+}
+
+.mae{
+  background-image: url("../assets/mae.png");
+}
+
+.careers{
+  background-image: url("../assets/careerservices.png");
+}
+
 /*info session info*/
 
 .event{
