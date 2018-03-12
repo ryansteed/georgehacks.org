@@ -584,6 +584,14 @@ td{
   background-image: url("../assets/scheider.png");
 }
 
+.adva{
+  background-image: url("../assets/advamed.png");
+}
+
+.synapse{
+  background-image: url("../assets/synapse.png");
+}
+
 /*info session info*/
 
 .event{
