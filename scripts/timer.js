@@ -18,7 +18,11 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
   var  mili = Math.floor(distance%1000);
 
+<<<<<<< HEAD
   var wait = "0d " + hours + "h " + minutes + "m " + seconds + "s " + mili + "ms";
+=======
+  var wait = "1d " + hours + "h " + minutes + "m " + seconds + "s " + mili + "ms";
+>>>>>>> 0db4224f80cf9285d81e0acc41efe5001bc5c534
   // Display the result in the element with id="demo"
   document.getElementById("timer").innerHTML =  wait;
   //console.log(wait);
