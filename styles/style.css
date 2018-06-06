@@ -393,13 +393,13 @@ td{
 /*social icons*/
 /* common styles !!! YOU DON'T NEED THEM */
 .social {
-  margin: 60px auto 0px auto;
+  margin: 0px auto;
   text-align: center;
 }
 
 .effect {
   width: 100%;
-  padding: 50px 0px 70px 0px;
+  padding: 0px 0px 70px 0px;
   background-color: #212121;
 }
 .effect:nth-child(2) {
@@ -416,7 +416,7 @@ td{
   border-color: #fff;
 }
 .effect .buttons {
-  margin-top: 50px;
+  margin-top: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
