@@ -527,12 +527,11 @@ td{
 .otherSponsor{
   min-width: 180px;
   max-height: 220px;
-
   background-color: none;
   background-repeat: no-repeat;
   background-size: 180px;
   background-position: center;
-  height: 190px;
+  height: 120px;
 }
 
 /*List of sponsor divs*/
@@ -542,6 +541,7 @@ td{
 
 .fws{
   background-image: url("../assets/4ws.png");
+  background-size: 100px;
 }
 
 .soylent{
