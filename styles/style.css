@@ -51,6 +51,7 @@ footer {
   width: 100%;
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
+  margin-bottom: 0px;
 }
 .tabs > li {
   transition-duration: .25s;
@@ -163,7 +164,7 @@ p {
 }
 
 .content-block{
-  color: #EFEFEF;
+  color: #50555a;
   min-width: 600px;
   max-width: 900px;
   margin: 0 auto;
@@ -196,7 +197,7 @@ p {
   border-radius: 5px;
   color: #000000;
   font-size: 20px;
-  background: #EFEFEF;
+  background: #46a1de;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   max-width: 200px;

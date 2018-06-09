@@ -20,7 +20,9 @@
 
 
    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+   <link rel="stylesheet" href="./styles/flower.css" type="text/css">
    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+   
 
    <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120545663-1"></script>
@@ -34,19 +36,20 @@
  </head>
 
 
- <body class="bg-color">
-   <!--<nav class="bg-color">George Hacks Medical Devices</nav>-->
-   <!--mlh banner-->
+<body class="bg-color">
+<nav class="menu">
+   <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+   <label class="menu-open-button" for="menu-open">
+    <span class="lines line-1"></span>
+    <span class="lines line-2"></span>
+    <span class="lines line-3"></span>
+  </label>
 
-  <!-- <div class="event">
-  <div class="event-center">
-    <h1>Info Session</h1>
-    <h1>Thursday, Feb. 15th</h1>
-    <h2>5:45 PM</h2>
-    <h2>Tompkins Hall room M06</h2>
-    <h2>We have pizza!</h2>
-  </div>
-</div> -->
+   <a id="0" class="active tabsOn menu-item purple"> <i class="fa fa-home"></i> </a>
+   <a id="3" class="menu-item green"> <i class="fa fa-question-circle-o"></i> </a>
+   <a id="4" class="menu-item red"> <i class="fa fa-newspaper-o"></i> </a>
+</nav>
+
 <div class="row">
   <div class="logo-head">
       <img src="./assets/fullogo_white.png" alt="George Hack" class="logo">
@@ -66,110 +69,104 @@
 
 </div>
 
-
-<div class="content-block" align="center">
-    <h2>Thank you for coming!</h2>
-</div>
-
-
-  <div class="content-block" align="center">
-    <h4>Learn more about GW Innovation Competitions</h4>
-    <br>
-    <div class="outer-inline-buttons">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnmfSoC4IWAxWrdDDQh89Bd8e7zFK-mcd_bweZcW-BLNQ3nQ/viewform"> <div class="cool-button inline-button">
-      Join our Student Org
-      </div> </a>
-      <a href="assets/EventSummary.pdf"> <div class="cool-button inline-button">
-      Post-Event Booklet
-      </div> </a>
-    </div>
-  </div>
-
    <div class="content-block" align="center">
      <!-- nice little block to space things out-->
   </div>
+
+
   <br>
       <!-- Tabs and information-->
       <section class="wrapper">
        <ul class="tabs">
-         <li class="active">2018 Results</li>
-         <li>What's Next</li>
-         <li>Info</li>
-         <li>FAQ</li>
-         <li>Schedule</li>
+         <li class="active">GW Hacks</li>
+         <li>GM Hacks</li>
+         <li>GU Hacks</li>
+         <!-- <li>FAQ</li>
+         <li>Schedule</li> -->
        </ul>
 
        <ul class="tab__content">
          <li class="active">
            <div class="content__wrapper">
-              <h1 class="text-color">Winners</h1>
-
-              <!-- List of winners. winner-block has no special css, just organizing-->
-              <div class="winner-block">
-                <h3 class="text-color">1st</h3>
-                <h4>Team Name: Absolute Zero <br> Pitch Title:  Adapting Assistive Devices for Use in Burundian Refugee Camp in Tanzania</h4>
-                <h4>Team Member Names: Erin Flynn, Steven Brunetto, Logan Bartholomew, Joseph Espy</h4>
-                <img src="./assets/winners/1.jpg" alt="1">
+              <h2 class="text-color">George Washington</h2>
+              <div class="header">
+              <div class="content-block" align="center">
+                  <h2>Thank you for coming!</h2>
               </div>
 
-              <div class="winner-block">
-                <h3 class="text-color">2nd</h3>
-                <h4>Team Name: Vitality, Pitch <br> Pitch Title:  Smart Hospital Technology to Improve Patient Mood and Satisfaction</h4>
-                <h4>Team Member Names: Alexandra Kaplan, Natalie Zukoff, Sayna Matinrazm, Ngozi Ihenacho</h4>
-                <img src="./assets/winners/2.jpg" alt="2">
-              </div>
 
-              <div class="winner-block">
-                <h3 class="text-color">3rd</h3>
-                <h4>Team Name: BME Squad <br> Pitch Title: Reverse View Camera for Wheelchairs</h4>
-                <h4>Team Member Names: Shirali Nigam, Bianca Karpinecz, Patrycja Mikolajczyk, Mercedes Suazo</h4>
-                <img src="./assets/winners/3.jpg" alt="3">
-              </div>
-
-              <div class="winner-block">
-                <h3 class="text-color">4th</h3>
-                <h4>Team Name: Innovation DDAS <br> Pitch Title: Redesigning Stores and Shelving for People in Wheelchairs</h4>
-                <h4>Team Member Names: Karandeep Singh, Abigail DeMassi, Sebastian Lora, Daniel Buford</h4>
-                <img src="./assets/winners/4.jpg" alt="4">
+                <div class="content-block" align="center">
+                  <h4>Learn more about GW Innovation Competitions</h4>
+                  <br>
+                  <div class="outer-inline-buttons">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnmfSoC4IWAxWrdDDQh89Bd8e7zFK-mcd_bweZcW-BLNQ3nQ/viewform"> <div class="cool-button inline-button">
+                    Join our Student Org
+                    </div> </a>
+                    <a href="assets/EventSummary.pdf"> <div class="cool-button inline-button">
+                    Post-Event Booklet
+                    </div> </a>
+                  </div>
+                </div>
               </div>
            </div>
          </li>
          <li>
            <div class="content__wrapper">
-              <h2 class="text-color">Other places to find us</h2>
-              <br>
-              <p> <a href="https://newventure.gwu.edu/">GW's New Venture Competition April 19th</a> </p>
-              <p> <a href="http://enablingthefuture.org/"> E-Nable </a> </p>
-              <p> <a href="https://innovation.gwu.edu/dc-i-corps-node">Accelerate DC - I-corps </a> </p>
+              <h2 class="text-color">George Mason</h2>
+              <div class="header">
+                <div class="content-block" align="center">
+                    <h2>Thank you for coming!</h2>
+                </div>
 
+
+                  <div class="content-block" align="center">
+                    <h4>Learn more about GW Innovation Competitions</h4>
+                    <br>
+                    <div class="outer-inline-buttons">
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnmfSoC4IWAxWrdDDQh89Bd8e7zFK-mcd_bweZcW-BLNQ3nQ/viewform"> <div class="cool-button inline-button">
+                      Join our Student Org
+                      </div> </a>
+                      <a href="assets/EventSummary.pdf"> <div class="cool-button inline-button">
+                      Post-Event Booklet
+                      </div> </a>
+                    </div>
+                  </div>
+                </div>
            </div>
          </li>
+         <li>
+           <div class="content__wrapper">
+              <h2 class="text-color">Georgetown</h2>
+              <div class="header">
+                <div class="content-block" align="center">
+                    <h2>Thank you for coming!</h2>
+                </div>
+                  <div class="content-block" align="center">
+                    <h4>Learn more about GW Innovation Competitions</h4>
+                    <br>
+                    <div class="outer-inline-buttons">
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnmfSoC4IWAxWrdDDQh89Bd8e7zFK-mcd_bweZcW-BLNQ3nQ/viewform"> <div class="cool-button inline-button">
+                      Join our Student Org
+                      </div> </a>
+                      <a href="assets/EventSummary.pdf"> <div class="cool-button inline-button">
+                      Post-Event Booklet
+                      </div> </a>
+                    </div>
+                  </div>
+                </div>
+           </div>
+         </li>
+         
          <li >
            <div class="content__wrapper">
              <!--tab 1-->
-             <h2 class="text-color">WHO WE ARE</h2>
-
+             <h1 class="text-color">WHO WE ARE</h2>
+              <br>
+            <hr>
+            <br>
              <p>
                 We are changing the face of hackathons through our interdisciplinary approach and broad range of topics! Our student organization was established in 2018 with the goal of getting all students at GWU and in the nearby area involved. We are hacking medical solutions, global economic issues, women in tech and so much more!
               </p>
-
-              <br>
-              <hr>
-              <br>
-              <h3 class="text-color">NEWS</h3>
-              <div class="row">
-                <a class="link underline" href="https://gwtoday.gwu.edu/gw-students-innovate-first-george-hacks-competition">GW Today</a>
-                <a class="link underline" href="https://www.gwhatchet.com/2018/02/22/students-to-develop-medical-technologies-at-new-hackathon-event/">GW Hatchet</a>
-                <a class="link underline" href="https://susannahfox.com/2018/03/28/if-we-give-people-access-to-the-tools-they-need-to-solve-problems-they-will/">Susannah Fox: If we give...</a>
-                <a class="link underline" href="https://susannahfox.com/2018/03/21/how-to-judge-an-innovation/">Susannah Fox: How to Judge...</a>
-                <a class="link underline" href="https://www.seas.gwu.edu/george-hacks-medical-hackathon">SEAS Newsletter</a>
-                <a class="link underline" href="https://www.mae.seas.gwu.edu/three-mae-students-win-george-hacks-medical-hackathon">GWU MAE Newsletter</a>
-                <a class="link underline" href="https://www.facebook.com/pg/GWEngineer/posts/">GW Engineers</a>
-              <br>
-              <br>
-              <hr>
-              <br>
-
               <iframe width="420" height="315"
                   src="https://www.youtube.com/embed/y-NVU1XPmzY">
               </iframe>
@@ -177,7 +174,6 @@
               <br>
               <br>
               <hr>
-              <br>
 
              <h2 class="text-color">ARE YOU READY TO CONTRIBUTE TO THE FUTURE OF MEDICAL DEVICES?</h2>
 
@@ -190,13 +186,10 @@
              <p>
                Medical equipment companies often do not see low cost medical devices as a profitable market. When a patient does not have health insurance, or the device is not covered by insurance, patients will seek more affordable options. Too often, these options are unavailable or ineffective, resulting in an inability to properly meet patient’s medical needs. The lack of affordable medical devices increases patient recovery and healthcares expenses for individuals and tax payers.  We challenge you to come up with innovative and affordable medical devices.
              </p>
-
-           </div>
-         </li>
-         <li>
-           <div class="content__wrapper">
-             <!--Tab 2-->
-             <div align="center" class="faq">
+           <hr>
+           <br>
+           <div align="center" class="faq">
+              <h2 class="text-color">FAQs</h2>
                <div class="card">
                  <h3 class="text-color">WHAT ARE WE? </h3>
                  <p>George Hacks: Assistive Devices is the first medical hackathon hosted by the George Washington University. We bring together the most innovative students from all kinds of fields for a 24-hour competition.</p>
@@ -287,7 +280,66 @@
                   <h3 class="text-card"></h3>
                   <p></p>
                </div>
+               </div>
              </div><!--end of FAQ-->
+         </li>
+         <li>
+           <div class="content__wrapper">
+              <h1 class="text-color">NEWS</h1>
+              <br>
+              <hr>
+              <br>
+              <div class="row">
+                <a class="link underline" href="https://gwtoday.gwu.edu/gw-students-innovate-first-george-hacks-competition">GW Today</a>
+                <a class="link underline" href="https://www.gwhatchet.com/2018/02/22/students-to-develop-medical-technologies-at-new-hackathon-event/">GW Hatchet</a>
+                <a class="link underline" href="https://susannahfox.com/2018/03/28/if-we-give-people-access-to-the-tools-they-need-to-solve-problems-they-will/">Susannah Fox: If we give...</a>
+                <a class="link underline" href="https://susannahfox.com/2018/03/21/how-to-judge-an-innovation/">Susannah Fox: How to Judge...</a>
+                <a class="link underline" href="https://www.seas.gwu.edu/george-hacks-medical-hackathon">SEAS Newsletter</a>
+                <a class="link underline" href="https://www.mae.seas.gwu.edu/three-mae-students-win-george-hacks-medical-hackathon">GWU MAE Newsletter</a>
+                <a class="link underline" href="https://www.facebook.com/pg/GWEngineer/posts/">GW Engineers</a>
+              <br>
+              <br>
+              <hr>
+              <h2 class="text-color">2018 Winners</h2>
+
+              <!-- List of winners. winner-block has no special css, just organizing-->
+              <div class="winner-block">
+                <h3 class="text-color">1st</h3>
+                <h4>Team Name: Absolute Zero <br> Pitch Title:  Adapting Assistive Devices for Use in Burundian Refugee Camp in Tanzania</h4>
+                <h4>Team Member Names: Erin Flynn, Steven Brunetto, Logan Bartholomew, Joseph Espy</h4>
+                <img src="./assets/winners/1.jpg" alt="1">
+              </div>
+
+              <div class="winner-block">
+                <h3 class="text-color">2nd</h3>
+                <h4>Team Name: Vitality, Pitch <br> Pitch Title:  Smart Hospital Technology to Improve Patient Mood and Satisfaction</h4>
+                <h4>Team Member Names: Alexandra Kaplan, Natalie Zukoff, Sayna Matinrazm, Ngozi Ihenacho</h4>
+                <img src="./assets/winners/2.jpg" alt="2">
+              </div>
+
+              <div class="winner-block">
+                <h3 class="text-color">3rd</h3>
+                <h4>Team Name: BME Squad <br> Pitch Title: Reverse View Camera for Wheelchairs</h4>
+                <h4>Team Member Names: Shirali Nigam, Bianca Karpinecz, Patrycja Mikolajczyk, Mercedes Suazo</h4>
+                <img src="./assets/winners/3.jpg" alt="3">
+              </div>
+
+              <div class="winner-block">
+                <h3 class="text-color">4th</h3>
+                <h4>Team Name: Innovation DDAS <br> Pitch Title: Redesigning Stores and Shelving for People in Wheelchairs</h4>
+                <h4>Team Member Names: Karandeep Singh, Abigail DeMassi, Sebastian Lora, Daniel Buford</h4>
+                <img src="./assets/winners/4.jpg" alt="4">
+              </div>
+           </div>
+         </li>
+         <li>
+           <div class="content__wrapper">
+              <h2 class="text-color">Other places to find us</h2>
+              <br>
+              <p> <a href="https://newventure.gwu.edu/">GW's New Venture Competition April 19th</a> </p>
+              <p> <a href="http://enablingthefuture.org/"> E-Nable </a> </p>
+              <p> <a href="https://innovation.gwu.edu/dc-i-corps-node">Accelerate DC - I-corps </a> </p>
+
            </div>
          </li>
          <li>
@@ -420,10 +472,11 @@
       </div>
 
       <footer>Copyright George Hacks 2018</footer>
-      <script src="./scripts/timer.js" type="text/javascript" ></script>
       <script async charset="utf-8"
         src="//cdn.iframe.ly/embed.js?api_key=..." 
       ></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
  </body>
 
