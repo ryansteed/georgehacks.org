@@ -156,7 +156,7 @@ footer {
 }
 
 p {
-  padding-bottom: 60px;
+  /*padding-bottom: 60px;*/
 }
 
 .content__wrapper h2{
@@ -186,6 +186,12 @@ p {
 
 .card{
   max-width: 80%;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.faq .card {
+  background-color: #E0E0E0;
 }
 
 .button{
@@ -669,4 +675,7 @@ td{
   position: absolute;
   top: 34px;
   left: 0;
+}
+strong {
+  font-weight: bold;
 }
